@@ -1,0 +1,17 @@
+Call:
+lm(formula = Salary.Paid ~ Taxable.Benefits, data = sunshine_data)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-301088.76  -20434.12  -10960.11    6455.01 1400794.99 
+
+Coefficients:
+                     Estimate   Std. Error    t value   Pr(>|t|)    
+(Intercept)      1.235305e+05 1.078095e+02 1145.82185 < 2.22e-16 ***
+Taxable.Benefits 4.389784e+00 4.667937e-02   94.04119 < 2.22e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 35804.67 on 131739 degrees of freedom
+Multiple R-squared:  0.06290776,	Adjusted R-squared:  0.06290065 
+F-statistic: 8843.746 on 1 and 131739 DF,  p-value: < 2.2204e-16
